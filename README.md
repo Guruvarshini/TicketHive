@@ -8,7 +8,6 @@ Welcome to the TicketHive - Ticket Booking Dapp! This decentralized application 
 - **Ticket Booking**: Reserve tickets for your desired events seamlessly.
 - **Blockchain Integration**: Utilizes blockchain technology for secure and transparent transactions.
 - **User Authentication**: Ensure secure access to user accounts.
-- **Payment Options**: Support for various payment methods including cryptocurrencies.
 - **Real-Time Updates**: Receive instant updates on event availability and ticket status.
 
 ## Getting Started
@@ -18,7 +17,7 @@ To get started with the Event Ticket Booking Dapp, follow these steps:
 1. Clone the repository:
 
     ```
-    git clone https://github.com/santhosh-vairamuthu/tickethive-dapp.git
+    https://github.com/Guruvarshini/TicketHive/
     ```
 
 2. Install dependencies:
@@ -37,17 +36,18 @@ To get started with the Event Ticket Booking Dapp, follow these steps:
     ```
     npm start
     ```
-
-5. Access the Dapp:
+5.Run backend:
+'''
+nodemon src/server.js
+'''
+6. Access the Dapp:
 
     Open your web browser and navigate to `http://localhost:3000` to access the Event Ticket Booking Dapp.
 
 ## Technologies Used
 
-- **Blockchain**: Ethereum, Solidity
 - **Frontend**: React.js
 - **Backend**: Node.js
-- **Database**: Ethereum Blockchain
-- **Smart Contracts**: Solidity
+- **Database**: PostgreSQL
 
 
